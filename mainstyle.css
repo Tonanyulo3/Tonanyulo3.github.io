@@ -1,8 +1,6 @@
 body{
     background-image: url("images/background.png");
     margin: 0;
-    font-family: "Times New Roman";
-    font-size: 12pt;
 }
 
 .main{
@@ -10,7 +8,7 @@ body{
     border-style: solid;
     border-width: 15px;
     border-color: lightgray;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 150px;
     margin-left: max(20%, 50px);
     margin-right: max(20%, 50px);
@@ -20,6 +18,18 @@ body{
     padding-left: 150px;
     padding-right: 150px;
     text-align: justify;
+    font-size: 12pt;
+    font-family: "Times New Roman";
+}
+
+.testbox{
+    background-color: azure;
+    margin: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    border-color: lightgray;
+    width: 50px;
 }
 
 .normal{
@@ -33,4 +43,18 @@ body{
 
 .exaggeration{
     font-size: 100px;
+}
+
+.options{
+    position: fixed;
+    top: 0;
+}
+
+.title{
+    width:fit-content;
+    font-size: 50px;
+    margin: 10px;
+    background-color: aqua;
+    padding-left: 20px;
+    padding-right: 20px;
 }
